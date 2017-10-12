@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='usb4java' version='1.0.0.7L7g-cLuZQ'>
+    <properties size='3'>
+      <property name='org.eclipse.equinox.p2.name' value='usb4java target'/>
+      <property name='org.eclipse.equinox.p2.description' value='usb4java target repo'/>
+      <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='usb4java' version='1.0.0.7L7g-cLuZQ'/>
+    </provides>
+    <requires size='11'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.usb4java.libusb4java.linux-arm' range='[1.2.0,1.2.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.usb4java.libusb4java.linux-x86_64' range='[1.2.0,1.2.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.usb4java.libusb4java.osx-x86_64' range='[1.2.0,1.2.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='usb4java-javax_javax.usb.api' range='[1.2.0,1.2.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.usb4java.libusb4java.windows-x86' range='[1.2.0,1.2.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.usb4java.bundle.source' range='[1.2.0,1.2.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='usb4java-javax_javax.usb.api.source' range='[1.2.0,1.2.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.usb4java.libusb4java.linux-x86' range='[1.2.0,1.2.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.usb4java.libusb4java.osx-x86' range='[1.2.0,1.2.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.usb4java.bundle' range='[1.2.0,1.2.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.usb4java.libusb4java.windows-x86_64' range='[1.2.0,1.2.0]'/>
+    </requires>
+    <touchpoint id='null' version='0.0.0'/>
+  </unit>
+</units>

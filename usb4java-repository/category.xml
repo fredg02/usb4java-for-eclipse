@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <bundle id="org.usb4java.bundle" version="1.2.0">
+      <category name="usb4java"/>
+   </bundle>
+   <bundle id="org.usb4java.bundle.source" version="1.2.0">
+      <category name="usb4java"/>
+   </bundle>
+   <bundle id="usb4java-javax_javax.usb.api" version="1.2.0">
+      <category name="usb4java"/>
+   </bundle>
+   <bundle id="usb4java-javax_javax.usb.api.source" version="1.2.0">
+      <category name="usb4java"/>
+   </bundle>
+   <bundle id="org.usb4java.libusb4java.linux-arm" version="1.2.0">
+      <category name="usb4java"/>
+   </bundle>
+   <bundle id="org.usb4java.libusb4java.linux-x86" version="1.2.0">
+      <category name="usb4java"/>
+   </bundle>
+   <bundle id="org.usb4java.libusb4java.linux-x86_64" version="1.2.0">
+      <category name="usb4java"/>
+   </bundle>
+   <bundle id="org.usb4java.libusb4java.osx-x86" version="1.2.0">
+      <category name="usb4java"/>
+   </bundle>
+   <bundle id="org.usb4java.libusb4java.osx-x86_64" version="1.2.0">
+      <category name="usb4java"/>
+   </bundle>
+   <bundle id="org.usb4java.libusb4java.windows-x86" version="1.2.0">
+      <category name="usb4java"/>
+   </bundle>
+   <bundle id="org.usb4java.libusb4java.windows-x86_64" version="1.2.0">
+      <category name="usb4java"/>
+   </bundle>
+   <category-def name="usb4java" label="usb4java target">
+      <description>
+         usb4java target repo
+      </description>
+   </category-def>
+</site>

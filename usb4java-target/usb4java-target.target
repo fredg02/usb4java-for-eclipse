@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?><target name="usb4java-target" sequenceNumber="43">
+<locations>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.usb4java.libusb4java.linux-arm" version="1.2.0"/>
+<unit id="org.usb4java.libusb4java.linux-x86_64" version="1.2.0"/>
+<unit id="org.usb4java.libusb4java.osx-x86_64" version="1.2.0"/>
+<unit id="org.usb4java.libusb4java.windows-x86" version="1.2.0"/>
+<unit id="org.usb4java.libusb4java.linux-x86" version="1.2.0"/>
+<unit id="org.usb4java.libusb4java.osx-x86" version="1.2.0"/>
+<unit id="org.usb4java.libusb4java.windows-x86_64" version="1.2.0"/>
+<repository location="file:/home/fr3d/git/usb4java-target/target/repository/"/>
+</location>
+</locations>
+<environment>
+<os>linux</os>
+<ws>gtk</ws>
+<arch>x86_64</arch>
+<nl>en_US</nl>
+</environment>
+<launcherArgs>
+<vmArgs>-Dosgi.requiredJavaVersion=1.7 -XX:MaxPermSize=256m -Xms256m -Xmx1024m</vmArgs>
+</launcherArgs>
+</target>
