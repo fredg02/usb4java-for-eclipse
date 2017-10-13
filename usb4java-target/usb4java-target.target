@@ -9,7 +9,7 @@
 <unit id="org.usb4java.libusb4java.linux-x86" version="1.2.0"/>
 <unit id="org.usb4java.libusb4java.osx-x86" version="1.2.0"/>
 <unit id="org.usb4java.libusb4java.windows-x86_64" version="1.2.0"/>
-<repository location="file:/home/fr3d/git/usb4java-target/target/repository/"/>
+<repository location="file:/this/needs/to/be/replaced/with/the/actual/path"/>
 </location>
 </locations>
 <environment>
