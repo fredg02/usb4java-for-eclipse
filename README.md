@@ -46,9 +46,10 @@ compromise between messiness, hacking effort and lack of time.
 
 #### Instructions
 
-1. `mvn clean verify -f usb4java-target/pom.xml`
-2. `ant -f usb4java-target/fixTargetDefinition.xml`
-3. `mvn clean verify -f usb4java-parent/pom.xml`
+1. `git submodule update --init
+2. `mvn clean verify -f usb4java-target/pom.xml`
+3. `ant -f usb4java-target/fixTargetDefinition.xml`
+4. `mvn clean verify -f usb4java-parent/pom.xml`
 
 This will create a P2 repository in `usb4java-repository/target/repository` or
 as a Zip file `usb4java-repository/target/usb4java-repository-1.0.0.zip`.

@@ -1,6 +1,6 @@
 [submodule "usb4java-javax"]
 	path = usb4java-javax
-	url = git@github.com:fredg02/usb4java-javax.git
+	url = https://github.com/fredg02/usb4java-javax.git
 [submodule "usb4java"]
 	path = usb4java
-	url = git@github.com:fredg02/usb4java.git
+	url = https://github.com/fredg02/usb4java.git
