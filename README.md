@@ -46,7 +46,7 @@ compromise between messiness, hacking effort and lack of time.
 
 #### Instructions
 
-1. `git submodule update --init
+1. `git submodule update --init`
 2. `mvn clean verify -f usb4java-target/pom.xml`
 3. `ant -f usb4java-target/fixTargetDefinition.xml`
 4. `mvn clean verify -f usb4java-parent/pom.xml`
