@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="usb4java-target" sequenceNumber="43">
-<locations>
-<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
-<unit id="org.usb4java.libusb4java.linux-arm" version="1.2.0"/>
-<unit id="org.usb4java.libusb4java.linux-x86_64" version="1.2.0"/>
-<unit id="org.usb4java.libusb4java.osx-x86_64" version="1.2.0"/>
-<unit id="org.usb4java.libusb4java.windows-x86" version="1.2.0"/>
-<unit id="org.usb4java.libusb4java.linux-x86" version="1.2.0"/>
-<unit id="org.usb4java.libusb4java.osx-x86" version="1.2.0"/>
-<unit id="org.usb4java.libusb4java.windows-x86_64" version="1.2.0"/>
-<repository location="file:/this/needs/to/be/replaced/with/the/actual/path"/>
-</location>
-</locations>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><?pde version="3.8"?><target name="usb4java-target" sequenceNumber="43">
 <environment>
 <os>linux</os>
 <ws>gtk</ws>
@@ -21,4 +8,20 @@
 <launcherArgs>
 <vmArgs>-Dosgi.requiredJavaVersion=1.7 -XX:MaxPermSize=256m -Xms256m -Xmx1024m</vmArgs>
 </launcherArgs>
+	<locations>
+		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<unit id="net.bytebuddy.byte-buddy" version="1.9.0"/>
+			<unit id="net.bytebuddy.byte-buddy-agent" version="1.9.0"/>
+			<unit id="org.mockito.mockito-core" version="2.23.0"/>
+			<unit id="org.objenesis" version="2.6.0"/>
+			<unit id="org.usb4java.libusb4java.darwin-x86-64" version="1.3.0"/>
+			<unit id="org.usb4java.libusb4java.linux-aarch64" version="1.3.0"/>
+			<unit id="org.usb4java.libusb4java.linux-arm" version="1.3.0"/>
+			<unit id="org.usb4java.libusb4java.linux-x86" version="1.3.0"/>
+			<unit id="org.usb4java.libusb4java.linux-x86-64" version="1.3.0"/>
+			<unit id="org.usb4java.libusb4java.win32-x86" version="1.3.0"/>
+			<unit id="org.usb4java.libusb4java.win32-x86-64" version="1.3.0"/>
+			<repository location="file:/home/fr3d/git/usb4java-for-eclipse/usb4java-target/target/repository/"/>
+		</location>
+	</locations>
 </target>
