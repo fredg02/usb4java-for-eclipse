@@ -87,6 +87,15 @@
         </executions>
         <configuration>
           <labelSuffix>- Source code</labelSuffix>
+          <excludes>
+            <plugin id="org.usb4java.libusb4java.linux-x86"/>
+            <plugin id="org.usb4java.libusb4java.linux-x86-64"/>
+            <plugin id="org.usb4java.libusb4java.linux-arm"/>
+            <plugin id="org.usb4java.libusb4java.linux-aarch64"/>
+            <plugin id="org.usb4java.libusb4java.darwin-x86-64"/>
+            <plugin id="org.usb4java.libusb4java.win32-x86"/>
+            <plugin id="org.usb4java.libusb4java.win32-x86-64"/>
+          </excludes>
         </configuration>
       </plugin>
       <plugin>
